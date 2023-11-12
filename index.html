@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Renta</title>
+</head>
+<body>
+    <H1>Calcular Renta Líquido</H1>
+    <p>
+        <div>
+         <h3>NOMBRE:</h3> <span id="nombre"></span>
+         <br>
+         <h3>RENTA:</h3> $<span id="renta"></span>
+         <br>
+         <h3>TIPO DE CONTRATO LABORAL:</h3>        HONORARIO <input type="radio" id="rhonorario" name="contrato" value="HONORAIO"> 
+         PLAZO FIJO / INDEFINIDO <input type="radio" id="rplazo" name="contrato" value="PLAZO FIJO / INDEFINIDO">
+        </div>
+    </p>
+    <p>
+       <h3>VALOR LÍQUIDO A PAGAR:</h3>  $ <span id="total"></span>
+    </p>
+    <button type="button" onclick="calcular()">Calcular</button>
+    <button type="button" onclick="nuevocalculo()">limpiar</button>
+    
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+</html>
